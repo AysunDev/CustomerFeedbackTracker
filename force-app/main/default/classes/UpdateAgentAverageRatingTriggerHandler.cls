@@ -36,3 +36,6 @@ public class UpdateAgentAverageRatingTriggerHandler {
         }
     }
 }
+for (Integer i = 0; i < length; i++) {
+    
+}

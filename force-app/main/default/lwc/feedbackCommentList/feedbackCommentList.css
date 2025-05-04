@@ -1,0 +1,10 @@
+:host {
+    display: block;
+    padding: 16px;
+    margin: 12px 0;
+    background-color: #f8f9fb; /* Açık gri-mavi */
+    border-radius: 10px;
+    border: 1px solid #cfd8dc; /* İnce mavi-gri çizgi */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+

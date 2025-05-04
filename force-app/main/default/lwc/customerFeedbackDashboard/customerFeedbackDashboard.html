@@ -1,0 +1,34 @@
+<template>
+    <c-customer-feedback-header></c-customer-feedback-header>
+  <!-- İlk sıra: Chart ve Pie -->
+  <div class="grid-2col">
+      <lightning-card title="Average Score Chart">
+          <c-average-score-chart></c-average-score-chart>
+      </lightning-card>
+
+      <lightning-card title="Score Distribution (Pie)">
+          <c-pie-chart></c-pie-chart>
+      </lightning-card>
+  </div>
+
+  <!-- İkinci sıra: Average Score ve Agent Highlight -->
+  <div class="grid-2col">
+      <lightning-card title="Average Score">
+          <c-summary-stats></c-summary-stats>
+      </lightning-card>
+
+      <lightning-card title="Agent Highlight">
+          <c-selected-agent-highlight></c-selected-agent-highlight>
+      </lightning-card>
+  </div>
+
+  <!-- Üçüncü sıra: Full-width Comments -->
+  <div class="grid-full">
+      <lightning-card title="Feedback Comments">
+          <c-feedback-comment-list></c-feedback-comment-list>
+      </lightning-card>
+  </div>
+</template>
+
+
+
